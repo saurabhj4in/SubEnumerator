@@ -1,0 +1,19 @@
+# Sub-Pro — Subdomain Prober
+# Install with: pip install -r requirements.txt
+
+# Data processing & Excel export
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# Terminal UI (replaces pyfiglet, termcolor, tabulate)
+rich>=13.7.0
+
+# NOTE: The following external binaries must be installed separately (not via pip):
+#
+#   subfinder  — https://github.com/projectdiscovery/subfinder
+#     macOS/Linux:  go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+#     Binary:       https://github.com/projectdiscovery/subfinder/releases
+#
+#   httpx      — https://github.com/projectdiscovery/httpx
+#     macOS/Linux:  go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+#     Binary:       https://github.com/projectdiscovery/httpx/releases
